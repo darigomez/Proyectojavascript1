@@ -1,22 +1,5 @@
- //PEDIMOS TODOS LOS DATOS
- var nombre1 = prompt("Nombre 1:");
- var edad1 = Number(prompt("Edad 1:"));
+let tabla = prompt("Hola que tabla querés multiplicar");
 
- var nombre2 = prompt("Nombre 2:");
- var edad2 = Number(prompt("Edad 2:"));
-
- var nombre3 = prompt("Nombre 3:");
- var edad3 = Number(prompt("Edad 3:"));
-
- //Función max() devuelve el mayor de los argumentos pasados.
- var maximo = Math.max(edad1, edad2, edad3);
-
- if (maximo == edad1) {
-     alert("El mayor es: " + nombre1);
- }
- if (maximo == edad2) {
-     alert("El mayor es: " + nombre2);
- }
- if (maximo == edad3) {
-     alert("El mayor es: " + nombre3);
- }
+for (let i = 1; i < 11; i++) {
+    alert(tabla + " x " + i + " = "+ (tabla * i))
+}
